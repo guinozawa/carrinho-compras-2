@@ -14,10 +14,6 @@ import org.powermock.api.easymock.PowerMock;
 import org.powermock.core.classloader.annotations.PrepareForTest;
 import org.powermock.modules.junit4.PowerMockRunner;
 
-/**
- *
- * @author Calebe de Paula Bianchini
- */
 @RunWith(PowerMockRunner.class)
 @PrepareForTest({Pagamento.class})
 public class PagamentoTest {
@@ -25,11 +21,6 @@ public class PagamentoTest {
     @Test
     public void executandoClasseExemplo() throws Exception {
         
-        //ItemPedido ip1 = new ItemPedido(new Produto("Touch Mouse Microsoft", 319.0), 1);
-        //ItemPedido ip2 = new ItemPedido(new Produto("Monitor 3D LED TA950 Samsung", 2.299), 2);
-        //Pedido p = new Pedido(27, "22/04/2013");
-        //p.addProdutoPedido(ip1);
-        //p.addProdutoPedido(ip2);
         CartaoCredito cartao = new CartaoCredito(1256251441, "TPY297", "Alex Rodriguez", "13", "12/15/2015", "MasterCard");
         
         // Cria o objeto Mock da classe PagamentoController

@@ -6,10 +6,6 @@ import java.io.FileInputStream;
 import java.util.Properties;
 import javax.naming.InitialContext;
 
-/**
- *
- * @author Calebe de Paula Bianchini
- */
 public class PagamentoController implements EJBStatelessPagamentoInterface {
 
     private EJBStatelessPagamentoInterface ejb;

@@ -1,10 +1,13 @@
+/** 
+ *  @author:
+ *  Nomes:  Guilherme Y. Nozawa        nº de matrícula: 3103116-1
+ *          Vinicius Landi                              3102115-8
+ */
+
 package br.calebe.exemplos.ex02;
 
 import br.calebe.exemplos.ex01.CartaoCredito;
-import br.calebe.exemplos.ex01.ItemPedido;
 import br.calebe.exemplos.ex01.Pagamento;
-import br.calebe.exemplos.ex01.Pedido;
-import br.calebe.exemplos.ex01.Produto;
 import br.calebe.exemplos.ex02.controller.PagamentoController;
 import junit.framework.Assert;
 import org.easymock.EasyMock;

@@ -13,6 +13,10 @@ public class Produto {
     public double getPreco() {
         return preco;
     }
+    
+    public void setPreco(double preco){
+        this.preco = preco;
+    }
 
     @Override
     public boolean equals(Object obj) {
@@ -21,5 +25,9 @@ public class Produto {
 
     public boolean equals(Produto obj) {
         return nome.equals(obj.nome);
+    }
+
+    public String getNome() {
+        return nome;
     }
 }
